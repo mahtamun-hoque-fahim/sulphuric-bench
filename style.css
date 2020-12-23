@@ -9,12 +9,16 @@ body{
     max-height: 300px;
     max-width: 300px;
 }
-/*.hdr-text{
-    text-shadow: 2px 2px 8px #000000;
-}*/
+#nav-logo{
+    max-width: 70px;
+    max-height: 70px;
+}
+.nav-bg{
+    background-color: #F36D5A;
+}
 .header-text{
     background-color: rgb(223, 223, 223);
-    border-radius: 100px;
+    border-radius: 100px ;
 }
 .footer-text{
     margin-top: 20px;
