@@ -14,22 +14,20 @@ body{
     max-height: 70px;
 }
 .nav-bg{
-    background-color: #F36D5A;
+    background:linear-gradient(90deg,#40fbff,#40b3ff);
 }
 .header-text{
-    background-color: rgb(223, 223, 223);
-    border-radius: 100px ;
+    background:linear-gradient(90deg,#40b3ff,#407bff);
+    border-radius: 50px ;
 }
 .footer-text{
+    color: black;
     margin-top: 20px;
     text-align: center;
 }
 
-.open-src{
-    color: black;
-}
 .made-by{
-    background-color: grey;
+    background:linear-gradient(90deg,#c4e7ff,#9bbaff);
 }
  .center{
    position: absolute;
@@ -37,8 +35,13 @@ body{
    left: 50%; 
    transform: translate(-50%, -50%);
  }
+ .btn{
+     border: none;
+ }
 .btn:hover{
-  box-shadow: 5px 5px 10px #000000;
+  background:linear-gradient(90deg,#40fbff,#40b3ff);
+  border: none;
+  color: black;
 }
 .quality-edu-pic{
     max-width: 300px;
