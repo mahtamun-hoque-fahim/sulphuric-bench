@@ -4,23 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- for android phone browsers -->
+    <meta name="theme-color" content="#0cb1ff" />
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#0cb1ff">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0cb1ff">
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/png" href="sulphuric logo.png" <!-- offline bootstrap -->
-    <!-- served from my pc -->
-    <link rel="stylesheet" href="/bootstrap-5.0.0-beta1-dist/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+    <link rel="icon" href="favicon.png">
 
-    <!-- online bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
 
-    <!-- font connected -->
+    <!-- font 1 -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+
+    <!-- font 2 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- my custom css -->
     <link rel="stylesheet" href="style.css">
-
-
     <title>Sulphuric Bench </title>
 </head>
 
@@ -127,9 +135,9 @@
         <div class="container ">
             <p class="py-6 ">This is a open source landing page built for <button href="https://facebook.com/sulphuric.bench" class="btn btn-primary shadow">Sulphuric Bench</button></p>
         </div>
-        <div class="made-by p-9">
-            <p>Made with ❤ by<a class="btn btn-primary m-2 shadow" href="https://github.com/mahtamun-hoque-fahim">Fahim</a></p>
-        </div>
+            <div class="footer shadow-lg">
+        <p class="p-2">Made with <i id="heart" class="fas fa-heart"></i> by Fahim</p>
+    </div>
     </div>
 
 
