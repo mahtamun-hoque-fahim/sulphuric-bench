@@ -24,7 +24,6 @@ body{
     color: black;
     margin-top: 20px;
     text-align: center;
-    position:sticky;
 }
 
 .made-by{
@@ -37,7 +36,7 @@ body{
    transform: translate(-50%, -50%);
  }
  .btn{
-     border: none;
+    border: none;
  }
 .btn:hover{
   background:linear-gradient(90deg,#40fbff,#40b3ff);
@@ -52,43 +51,11 @@ body{
     margin-right: auto;
 
 }
-.video {
-    width:100%;
-    height:auto;
-}
+/* .video {
+    text-align:center;
+    max-width: 100%;
+    height: auto;
+} */
 a{
 text-decoration:none;
 }
-.footer {
-    position:sticky;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:rgb(73, 197, 255);
-    text-align: center;
-  }
-
-  @keyframes heartbeat {
-    0% {
-      font-size: .75em;
-    }
-    /* 20% {
-      font-size: 1em;
-    }
-    40% {
-      font-size: .75em;
-    } */
-    50% {
-      font-size: 1em;
-    }
-    /* 80% {
-      font-size: .75em;
-    } */
-    100% {
-      font-size: .75em;
-    }
-  }
-  #heart {
-    color: white;
-    animation: heartbeat 1s infinite;
-  }
