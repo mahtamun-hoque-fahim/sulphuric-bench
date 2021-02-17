@@ -1,61 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins',sans-serif;
+    font-weight:lighter ;
+    outline: none;
+}
 body{
-    font-family: Dosis;
+    height: 100vh;
+    width: 100vw;
 }
-
-.header-pic{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 300px;
-    max-width: 300px;
-}
-#nav-logo{
-    max-width: 70px;
-    max-height: 70px;
-}
-.nav-bg{
-    background:linear-gradient(90deg,#40fbff,#40b3ff);
-}
-.header-text{
-    background:linear-gradient(90deg,#40b3ff,#407bff);
-    border-radius: 50px ;
-}
-.footer-text{
-    color: black;
-    margin-top: 20px;
+div{
     text-align: center;
+    top: 100%;
+    width: 100%;
+    line-height: 50px;
+
+}
+button{
+    border: none;
+    padding: 10px 20px ;
+    border-radius: 30px;
+    background: linear-gradient(to right,#0384fd,cyan);
+    color: black;
+}
+button:hover{
+    background:black;
+    color: white;
+    box-shadow: 0px 0px 10px gray;
 }
 
-.made-by{
-    background:linear-gradient(90deg,#c4e7ff,#9bbaff);
-}
- .center{
-   position: absolute;
-   top: 50%;
-   left: 50%; 
-   transform: translate(-50%, -50%);
- }
- .btn{
-    border: none;
- }
-.btn:hover{
-  background:linear-gradient(90deg,#40fbff,#40b3ff);
-  border: none;
-  color: black;
-}
-.quality-edu-pic{
-    max-width: 300px;
-    max-height: 300px;
+#image{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-}
-/* .video {
-    text-align:center;
-    max-width: 100%;
-    height: auto;
-} */
-a{
-text-decoration:none;
+    width: 50vh;
+    height: 50vh;
 }
