@@ -1,5 +1,7 @@
-# sulphuric-bench
 <img src="https://github.com/Sulphuric-Bench/SB-Ambassador/blob/main/SB.png" width="200px">
+# sulphuric-bench
+Execel your learning
+
 
 Trying to make a homepage for * Sulphuric Bench *
 It's a education organization. 
